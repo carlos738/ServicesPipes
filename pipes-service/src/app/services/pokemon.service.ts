@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'redux';
 import { environment } from 'src/environments/environment';
+import { PokemonData } from '../models/pokemonData';
 
 @Injectable({
   providedIn: 'root'

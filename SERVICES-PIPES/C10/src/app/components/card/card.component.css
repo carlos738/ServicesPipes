@@ -5,7 +5,7 @@
 
   display: flex;
   flex-direction: column;
-  background-color: #232323;
+  background-color: #070311;
   border-radius: 10px;
 }
 
@@ -15,11 +15,11 @@
 }
 
 .card__title > h3{
-  color: white;
+  color: rgb(187, 236, 10);
 }
 
 .card__body{
-  background-color: #616161;
+  background-color: #b69a9a;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -34,10 +34,10 @@
 }
 
 .card__stats__type{
-  color: rgb(0, 0, 0);
+  color: rgba(0, 0, 0, 0.342);
   font-weight: bold;
 
-  background-color: coral ;
+  background-color: rgb(230, 72, 15) ;
   border-radius: 5px;
 
   padding: 5px;

@@ -2,7 +2,7 @@
 
 
 <div class="card__title">
-<h3>CHARMANDER</h3>
+  <h3>{{name}}</h3>
 
 </div>
 <div class="card__body">
@@ -10,6 +10,12 @@
 
 </div>
 <div class="card__stats">
-<span class="card__stats__type"></span>
-</div>
+    <span *ngFor="let type of attributesTypes" >
+      {{type}}
+    </span>
+  
+    <span class="card__stats__type">FIRE</span>
+    <span class="card__stats__type">FIRE</span>
+    <span class="card__stats__type">FIRE</span>
+  </div>
 </div>

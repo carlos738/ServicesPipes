@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #111233;
+  color: rgba(255, 255, 255, 0.877);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+  text-decoration: none;
+}
